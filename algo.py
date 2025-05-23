@@ -78,7 +78,7 @@ def create_team_card(team):
             height: 80px;
         ">
             <strong style="font-size: 24px; margin: 0;">{team['team_name']}</strong>
-            <strong style="margin: 0;">Base {team['base']} - {team['captain']}</strong>
+            <strong style="margin: 0;">B{team['base']} - {team['captain']}</strong>
         </div>
     """
 
