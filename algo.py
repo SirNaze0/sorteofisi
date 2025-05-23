@@ -177,15 +177,11 @@ def create_bracket_ui(bracket_positions):
 
 def main():
     st.title(":soccer: Sorteo Interbases FISI 2025")
-    st.markdown("---")
-
     teams = get_teams_data()
-
     if 'bracket_positions' not in st.session_state:
         st.session_state.bracket_positions = [None] * 16
     if 'all_sorted' not in st.session_state:
         st.session_state.all_sorted = False
-
     # Primera fila: Títulos alineados a centro en cada sector
     col_izq_t, col_centro_t, col_der_t = st.columns([4, 2, 4])
     with col_izq_t:
@@ -224,7 +220,7 @@ def main():
             st.session_state.bracket_positions = [None] * 16
             st.session_state.all_sorted = False
             st.rerun()
-            
+
     # Equipos derecha (últimos 8) en 4 columnas
     with col_der:
         cols_der = st.columns(4)
