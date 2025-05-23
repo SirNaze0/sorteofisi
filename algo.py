@@ -84,7 +84,7 @@ def create_team_card(team):
 
 
 def create_bracket_ui(bracket_positions):
-    st.markdown("<h2 style='text-align: center;'>🏆 Bracket del Torneo (Simétrico)</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center;'>🏆 Bracket del Torneo</h2>", unsafe_allow_html=True)
     # Layout: 8vos (izq) - Cuartos (izq) - Semis (izq) - Final - Semis (der) - Cuartos (der) - 8vos (der)
     col_8vos_izq, col_cuartos_izq, col_semis_izq, col_final, col_semis_der, col_cuartos_der, col_8vos_der = st.columns([2,2,2,1.5,2,2,2], gap="small")
 
@@ -224,11 +224,7 @@ def main():
             st.session_state.bracket_positions = [None] * 16
             st.session_state.all_sorted = False
             st.rerun()
-
-        st.markdown("<br>", unsafe_allow_html=True)
-        st.progress(sum(p is not None for p in st.session_state.bracket_positions) / len(teams))
-        st.info(f"Equipos sorteados: {sum(p is not None for p in st.session_state.bracket_positions)}/{len(teams)}")
-
+            
     # Equipos derecha (últimos 8) en 4 columnas
     with col_der:
         cols_der = st.columns(4)
