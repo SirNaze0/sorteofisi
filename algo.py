@@ -234,9 +234,6 @@ def main():
                     <small>Capitán: {team['captain']}</small>
                 </div>
                 """, unsafe_allow_html=True)
-
-    st.markdown("---")
-
     # Bracket simétrico y centrado
     st.markdown("""
     <style>
