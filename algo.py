@@ -37,7 +37,7 @@ def get_teams_data() -> List[Dict]:
         {'base': '22', 'team_name': 'Sport Mottazoide', 'captain': 'Dioses Bellota, Angel'},
         {'base': '20', 'team_name': 'León XIV F. C', 'captain': 'Guevara Sánchez, Sandro'},
         {'base': '23', 'team_name': 'Los Migajeros', 'captain': 'Vasquez Pelaez, Francess'},
-        {'base': '25', 'team_name': 'Fisichulones fc', 'captain': 'Cerna Fabrizio'},
+        {'base': '25', 'team_name': 'Fisichulones fc', 'captain': 'Cerna Pariona, Fabrizio'},
         {'base': '25', 'team_name': 'Creeper FC', 'captain': 'Marin Yachachin, Fabio'},
         {'base': '25', 'team_name': 'Los Galácticos de la FISI', 'captain': 'Cisneros Garavito, Sebastian'},
         {'base': '25', 'team_name': 'DarkGWolves', 'captain': 'Marina Mitma, Rafael'},
