@@ -27,22 +27,22 @@ st.markdown("""
 
 def get_teams_data() -> List[Dict]:
     return [
-        {'base': '22', 'team_name': 'Infieles F.C.', 'captain': 'CRISTHIAN ANTHONY TORRES TINEO'},
-        {'base': '24', 'team_name': 'Manchester FISI', 'captain': 'Saccaco oscco christopher'},
-        {'base': '23', 'team_name': 'Sporting Mostaza FC', 'captain': 'PAOLO CÉSAR QUISPE ARANGO'},
-        {'base': '24', 'team_name': 'La Vecindad FC', 'captain': 'Angel Eduardo Daniel Salazar Ruiz'},
+        {'base': '22', 'team_name': 'Infieles F.C.', 'captain': 'Torres Tineo, Christian'},
+        {'base': '24', 'team_name': 'Manchester FISI', 'captain': 'Saccaco oscco, Christopher'},
+        {'base': '23', 'team_name': 'Sporting Mostaza FC', 'captain': 'Quispe Arango, Paolo'},
+        {'base': '24', 'team_name': 'La Vecindad FC', 'captain': 'Salazar Ruiz, Angel'},
         {'base': '21', 'team_name': 'FC BARCELONA', 'captain': 'Gorka Contreras Guardia'},
         {'base': '23', 'team_name': 'FisiBayern B23', 'captain': 'Ñahuis Arostegui'},
-        {'base': '20', 'team_name': 'Toque Fino', 'captain': 'Diego Alonso Chavez Torres'},
-        {'base': '22', 'team_name': 'Sport Mottazoide', 'captain': 'Angel Javier Dioses Bellota'},
-        {'base': '20', 'team_name': 'León XIV F. C', 'captain': 'Sandro Ramiro Guevara Sánchez'},
-        {'base': '23', 'team_name': 'Los Migajeros', 'captain': 'VASQUEZ PELAEZ FRANCESS JEICOLL'},
-        {'base': '25', 'team_name': 'Fisichulones fc', 'captain': 'Fabrizio Cerna'},
-        {'base': '25', 'team_name': 'Creeper FC', 'captain': 'Marin Yachachin Fabio Alexander'},
-        {'base': '25', 'team_name': 'Los Galácticos de la FISI', 'captain': 'Sebastian Cisneros Garavito'},
-        {'base': '25', 'team_name': 'DarkGWolves', 'captain': 'Rafael Marina Mitma'},
-        {'base': '23', 'team_name': 'F++', 'captain': 'Anderson tataje Rodríguez'},
-        {'base': '22', 'team_name': 'Los operadores', 'captain': 'ZAVALETA GAVILAN JACK BRIAN'},
+        {'base': '20', 'team_name': 'Toque Fino', 'captain': 'Chavez Torres, Diego'},
+        {'base': '22', 'team_name': 'Sport Mottazoide', 'captain': 'Dioses Bellota, Angel'},
+        {'base': '20', 'team_name': 'León XIV F. C', 'captain': 'Guevara Sánchez, Sandro'},
+        {'base': '23', 'team_name': 'Los Migajeros', 'captain': 'Vasquez Pelaez, Francess'},
+        {'base': '25', 'team_name': 'Fisichulones fc', 'captain': 'Cerna Fabrizio'},
+        {'base': '25', 'team_name': 'Creeper FC', 'captain': 'Marin Yachachin, Fabio'},
+        {'base': '25', 'team_name': 'Los Galácticos de la FISI', 'captain': 'Cisneros Garavito, Sebastian'},
+        {'base': '25', 'team_name': 'DarkGWolves', 'captain': 'Marina Mitma, Rafael'},
+        {'base': '23', 'team_name': 'F++', 'captain': 'Tataje Rodríguez, Anderson'},
+        {'base': '22', 'team_name': 'Los operadores', 'captain': 'Zavaleta Gavilán, Jack'},
     ]
 
 def sort_next_team(teams: List[Dict], bracket_positions: List[Optional[Dict]]) -> List[Optional[Dict]]:
