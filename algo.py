@@ -230,7 +230,7 @@ def main():
             with cols_der[col_idx]:
                 st.markdown(f"""
                 <div style='background:#f9fbe7; border:1px solid #dce775; padding:10px; margin:8px 0; border-radius:5px;'>
-                    <strong>{team['team_name']} - Base {team['base']}</strong><br>
+                    <strong>{team['team_name']} - B{team['base']}</strong><br>
                     <small>Capitán: {team['captain']}</small>
                 </div>
                 """, unsafe_allow_html=True)
